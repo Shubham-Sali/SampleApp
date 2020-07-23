@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "SampleApp",
+    "slug": "SampleApp",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.company",
+      "buildNumber": "1.0.0",
+      "config": {
+        "googleMapsApiKey": "AIzaSyBN1Zvjk6f_fE6AaZ5afcpHonasYrvmKg4"
+      }
+    },
+    "android": {
+      "package": "com.company",
+      "versionCode": 1,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBN1Zvjk6f_fE6AaZ5afcpHonasYrvmKg4"
+        }
+      }
+    },
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  },
+  "displayName": "SampleApp",
+  "name": "SampleApp"
+}
